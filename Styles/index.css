@@ -46,15 +46,18 @@ h1
     color: black;
   }
   
-  .topnav a.active {
+.topnav a.active {
     background-color: #8ED371;
     color: rgb(0, 0, 0);
   }
   
-  .topnav .icon {
+.topnav .icon {
     display: none;
   }
 
+.navdrop{
+    font-size: 100%;
+  }
 /*Footer Settings*/
 footer {
     margin-top: 40px;
@@ -69,6 +72,13 @@ footer {
     display: inline-block;  
     margin: 5px;
   }
+
+/*page contents*/
+.page-contents {
+    padding-top: 100px;
+    margin: 0 auto;
+    max-width: 1024px;
+}
 
 /* Screen size*/
 @media screen and (min-width: 1024px) {  
