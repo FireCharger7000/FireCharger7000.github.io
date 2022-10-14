@@ -14,3 +14,86 @@ h1
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
 }
+
+.topnav {
+    position: fixed;
+    overflow: hidden;
+    background-color: #084F0C;
+    width: 100%;
+}
+
+
+
+/* Screen size*/
+@media screen and (min-width: 1024px) {  
+    /* center the contents for screen width bigger than 1024 */
+    .topnav .contents {
+        width: 1124px;
+        margin: 0 auto;
+      }
+  }
+
+  @media screen and (max-width: 1023px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+}
+  
+@media screen and (max-width: 1023px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+}
+
+@media (max-width: 400px) {
+    .col-1 {
+      flex-basis: 100%;
+    }
+    
+    .col-2 {
+      flex-basis: 100%;  
+    }
+    
+    .col-4 {
+      flex-basis: 100%;  
+    }
+}
+  
+@media (max-width: 768px) {
+    .col-1 {
+      flex-basis: 50%;
+    }
+    
+    .col-2 {
+      flex-basis: 100%;  
+    }
+    
+    .col-4 {
+      flex-basis: 100%;  
+    }
+    
+}
+
+@media (min-width: 769px) {
+}
+
+@media (min-width: 992px) {
+}
+  
+  
+@media (min-width: 1200px) {
+}
+  
+  
+@media (min-width: 1400px) {
+}
