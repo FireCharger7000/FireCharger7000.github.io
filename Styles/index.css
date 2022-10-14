@@ -20,7 +20,7 @@ h1
 .topnav {
     position: fixed;
     overflow: hidden;
-    background-color: #084F0C;
+    background-color: #395e66;
     width: 100%;
 }
 
@@ -42,12 +42,12 @@ h1
 }
 
 .topnav a:hover {
-    background-color: #8ED371;
+    background-color: #ff6700;
     color: black;
   }
   
 .topnav a.active {
-    background-color: #8ED371;
+    background-color: #ff6700;
     color: rgb(0, 0, 0);
   }
   
@@ -62,7 +62,7 @@ h1
 footer {
     margin-top: 40px;
     padding-top: 20px;
-    background-color: #084F0C;
+    background-color: #008b8b;
     height: 150px;
     color: #ffffff;
     text-align: center;  
