@@ -1,6 +1,11 @@
-html
+*
 {
-    background: #EDEAE0;
+    color: #EDEAE0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-content: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 h1 
