@@ -80,6 +80,56 @@ footer {
     max-width: 1024px;
 }
 
+.textalign{
+    text-align: left;
+}
+  
+.page {
+      display: none;
+}
+    
+.page.show {
+      display: block;
+      margin: 0 auto;
+      max-width: 1024px;
+}
+  
+.padding10 {
+    padding: 10px;
+}
+  
+.margin10 {
+    margin: 10px;
+}
+  
+.add-border {
+      border: 1px solid black;  
+}
+    
+    
+.row {  
+      display: flex;    
+      flex-flow: row wrap;
+      justify-content: flex-start;
+}
+    
+.col {    
+      text-align: justify;  
+      min-height: 130px; 
+}
+    
+.col-1 {
+      flex-basis: 25%;
+}
+    
+.col-2 {
+      flex-basis: 50%;  
+}
+    
+.col-4 {
+      flex-basis: 100%;  
+}
+
 /* Screen size*/
 @media screen and (min-width: 1024px) {  
     /* center the contents for screen width bigger than 1024 */
