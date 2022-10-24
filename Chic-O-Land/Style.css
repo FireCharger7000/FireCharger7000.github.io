@@ -121,4 +121,30 @@ footer {
     .sidenav a {font-size: 18px;}
   }
 
-    
+.name h1
+{
+    font-size: 325%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.description h2
+{
+    font-size: 200%;
+    text-align: left;
+    padding-top: 1%;
+}
+
+.button a
+{
+    background-color: #b10f2e;
+    border: none;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    border-radius: 20%;
+}
