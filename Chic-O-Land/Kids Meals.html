@@ -16,52 +16,54 @@
         <a href="Vegan.html">Vegan</a>
         <a href="SidesnDips.html">Sides & Dips</a>
         <a href="Desserts.html">Desserts</a>
-        <a href="Kids Meals.html">Kids Meals</a>
+        <a href="Kids Meals.html"><b>Kids Meals></b></a>
         <a href="#">Offers & Rewards</a>
     </div>
       
     <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
     <div id="main" style="margin-left: 200px; padding: 3%; padding-top: 0%;">
+        <div class="row" id="Header">
+            <div class="col-4">
+                <div class="Header Center">
+                    <div style="padding-top: 15px;"></div>
+                    
+                    <h1>Chic-O-Land</h1>
+            
+                    <div style="padding-bottom: 15px;"></div>
+                </div>
+        
+                <div style="padding-top: 75px; padding-bottom: 10px;"></div>
+            </div>
+        </div>
 
         <div class="row" id="Image">
             <div class="col-4 Center">
                 
-                <img src="Images/Items/Chicken Mayo Sandwich Item.png">
+                <img src="Images/NEW DELUXE.png">
 
             </div>
         </div>
 
-        <div class="row name" id="Item Name">
-            <h1>Chicken Mayo Sandwich</h1>
+        <div class="row" id="Menu">
+            <div class="col-133">
+                <div class="row">
+                    <a href=""><img src="Images/Item Cards/Sandwiches/Mini Sandwich Card.png"></a>
+                </div>
+            </div>
 
-        </div>
+            <div class="col-133">
+                <div class="row">
+                    <a href=""><img src="Images/Item Cards/Snaking/Nugget Snakos Card.png"></a>
+                </div>
+            </div>
 
-        <div class="row description" id="Item Description">
-            <h2>The Classic Chicken Mayo Sandwich You All Know And Love!</h2>
-
-        </div>
-
-        <div style="padding: 10%;"></div>
-
-        <div class="row button" id="Add Item">
-            
-            <p onclick="openForm()"><a>Add To Basket</a></p>
-
-            <div class="meal-popup" id="myForm">
-                <form action="/action_page.php" class="meal-container">
-                    <h1>Would You Like That As A Meal?</h1>
-
-                    <div class="row">
-                                    <button type="submit" class="btn">YES</button>
-                                    <div style="padding: 16px;"></div>
-                                    <button type="submit" class="btn">NO</button>
-                    </div>
-                                
-                    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-                </form>
+            <div class="col-133">
+                <div class="row">
+                    <a href=""><img src="Images/Item Cards/Sides & Dips/Chicken Fries Card.png"></a>
+                </div>
             </div>
         </div>
-    
+
     </div>
 
     <footer>
@@ -89,13 +91,6 @@
     </footer>
 
     <script>
-        function openForm() {
-            document.getElementById("myForm").style.display = "block";
-        }
-
-        function closeForm() {
-            document.getElementById("myForm").style.display = "none";
-        }
     </script>
     
 </body>
