@@ -1,0 +1,137 @@
+body {
+  background-color: #6E16CC;
+  padding: 20px;
+}
+
+.btn-primary {
+  background-color: #2E2EB0;  
+}
+
+.btn-secondary {
+  background-color: #F1B8FC;
+}
+
+.btn-secondary.large {
+  height: 80px;
+  line-height: 60px;
+  font-size: 20px;
+}
+
+.btn-primary.large {  
+  width: 200px;
+  height: 80px;
+  line-height: 60px;  
+  font-size: 20px;
+}
+
+.btn-primary.group {
+  width: 100px;
+  height: 100px;
+  line-height: 80px;  
+  font-size: 20px;
+}
+
+.btn.active {
+  background-color: #9073d6;
+
+}
+
+a i {
+  color: white;
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;  
+  padding: 0px;
+  margin: 0px;
+}
+
+ul li {
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 8px;
+}
+
+
+.you-are-here {
+  position: relative;  
+}
+
+.you-are-here .info {  
+  position: absolute;
+  top: 40%;
+  left: 30%; 
+}
+
+.you-are-here .dot {
+  background-color: red;   
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.you-are-here .text {
+  color: black;
+  font-weight: bold;
+}
+
+form {
+  padding: 10px;
+}
+
+/***************************************/
+
+.shop-category {
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+  height: 200px;
+  line-height: 190px;
+  width: 250px;
+  font-size: 22px;
+  background-color: #f1b8fc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.background-pink {
+  background-color: #f1b8fc;
+}
+
+
+.btn-primary.title {  
+  width: 300px;
+  height: 80px;
+  line-height: 60px;  
+  font-size: 20px;
+}
+
+.informationbody {
+  font-size: 20px;
+  color: white;
+}
+
+.special-offers img {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.scroll {
+  max-height: 750px;
+  overflow-y: auto;
+}
+
+.shop{
+  font-size: 20px;
+}
