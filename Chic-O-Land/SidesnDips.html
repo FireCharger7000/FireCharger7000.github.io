@@ -85,27 +85,36 @@
     <footer>
         <div class="row">
             <div class="col-1">
-                <div class="row">
-                    <div class="col-2">
-                        <img src="Images/England Flag Button.png">
-                    </div>
-
-                    <div class="col-2">
-                        <p>Cancel Order Button</p>
-                    </div>
-                </div> 
+                <div class="select-language-popup" id="selectLanguagePopup">
+                    <form id="selectLanguageForm">
+                        <label for="language">Select meal size</label>
+                        <select id="language">
+                            <option value="English">English</option>
+                            <option value="French">French</option>
+                            <option value="Spanish">Spanish</option>
+                            <option value="German">German</option>
+                        </select>
+                        <button type="button" class="btn" id="selectLanguageButton">Update</button>
+                        <button type="button" class="btn cancel" id="closeSelectLanguagePopup">Close</button>
+                    </form>
+                </div>
+                <img id="showSelectLanguagePopupButton" src="Images/England Flag Button.png">
             </div>
 
-            <div class="col-2">
-
+            <div class="col-1 button">
+                <a id="cancelOrderButton">Cancel Order</a>
             </div>
 
-            <div class="col-1">
-                <p>Price Total = 0.00</p>
+            <div class="col-1 button">
+                <a>Total = &pound;<span id="totalPrice">0.00</span></a>
+            </div>
+            <div class="col-1 button">
+                <a href="Basket.html">Checkout</a>
             </div>
         </div>
     </footer>
 
+    <script type="text/javascript" src="common.js"></script>
     <script>
     </script>
     

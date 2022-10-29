@@ -2,8 +2,6 @@
 <head>
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="javascript" href="script"
-
 </head>
 
 <body>
@@ -44,20 +42,49 @@
         <div style="padding: 10%;"></div>
 
         <div class="row button" id="Add Item">
-            
-            <p onclick="openForm()"><a>Add To Basket</a></p>
 
-            <div class="meal-popup" id="myForm">
-                <form action="/action_page.php" class="meal-container">
+            <a id="addToBasketButton" class="btn">Add To Basket</a>
+
+            <div class="meal-popup select-meal-options-popup" id="selectMealOptionsPopup">
+                <form id="selectMealOptionsForm" class="meal-container">
+                    <input type="hidden" id="mealItem" value="Chicken Mayo Sandwich Meal">
+                    <input type="hidden" id="mealImage" value="Images/Items/Chicken Mayo Sandwich Item.png">
+                    <label for="mealSize">Select meal size</label>
+                    <select id="mealSize">
+                        <option value="Regular" data-price="4.99">Regular &pound;4.99</option>
+                        <option value="Large" data-price="5.49">Large &pound;5.49</option>
+                        <option value="Extra Large" data-price="5.59">Extra Large &pound;5.59</option>
+                    </select>
+                    <br>
+                    <label for="mealDrink">Select drink</label>
+                    <select id="mealDrink">
+                        <option value="Coke">Coke</option>
+                        <option value="Diet Coke">Diet Coke</option>
+                        <option value="Sprite">Sprite</option>
+                        <option value="Dr Pepper">Dr Pepper</option>
+                        <option value="Fanta">Fanta</option>
+                        <option value="Tea">Tea</option>
+                        <option value="Coffee">Coffee</option>
+                        <option value="Hot Chocolate">Hot Chocolate</option>
+                    </select>
+                    <br>
+                    <button type="button" class="btn" id="addMealSelectionToBasket">Add</button>
+                    <button type="button" class="btn cancel" id="closeSelectMealOptionsPopup">Close</button>
+                </form>
+            </div>
+
+            <div class="meal-popup" id="addToBasketPopup">
+                <form id="addToBasketForm" class="meal-container">
                     <h1>Would You Like That As A Meal?</h1>
-
                     <div class="row">
-                                    <button type="submit" class="btn">YES</button>
-                                    <div style="padding: 16px;"></div>
-                                    <button type="submit" class="btn">NO</button>
+                        <button class="btn" id="showSelectMealOptionsPopup">YES</button>
+                        <div style="padding: 16px;"></div>
+                        <button class="btn" id="noMealAddToBasket"
+                                data-item="Chicken Mayo Sandwich"
+                                data-image="Images/Items/Chicken Mayo Sandwich Item.png"
+                                data-price="3.99">NO</button>
                     </div>
-                                
-                    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                    <button type="button" class="btn cancel" id="closeAddToBasketPopup">Close</button>
                 </form>
             </div>
         </div>
@@ -67,35 +94,36 @@
     <footer>
         <div class="row">
             <div class="col-1">
-                <div class="row">
-                    <div class="col-2">
-                        <img src="Images/England Flag Button.png">
-                    </div>
-
-                    <div class="col-2">
-                        <p>Cancel Order Button</p>
-                    </div>
-                </div> 
+                <div class="select-language-popup meal-popup" id="selectLanguagePopup">
+                    <form id="selectLanguageForm">
+                        <label for="language">Select meal size</label>
+                        <select id="language">
+                            <option value="English">English</option>
+                            <option value="French">French</option>
+                            <option value="Spanish">Spanish</option>
+                            <option value="German">German</option>
+                        </select>
+                        <button type="button" class="btn" id="selectLanguageButton">Update</button>
+                        <button type="button" class="btn cancel" id="closeSelectLanguagePopup">Close</button>
+                    </form>
+                </div>
+                <img id="showSelectLanguagePopupButton" src="Images/England Flag Button.png">
             </div>
 
-            <div class="col-2">
-
+            <div class="col-1 button">
+                <a id="cancelOrderButton">Cancel Order</a>
             </div>
 
-            <div class="col-1">
-                <p>Price Total = 0.00</p>
+            <div class="col-1 button">
+                <a>Total = &pound;<span id="totalPrice">0.00</span></a>
+            </div>
+            <div class="col-1 button">
+                <a href="Basket.html">Checkout</a>
             </div>
         </div>
     </footer>
 
-    <script>
-        function openForm() {
-            document.getElementById("myForm").style.display = "block";
-        }
-
-        function closeForm() {
-            document.getElementById("myForm").style.display = "none";
-        }
-    </script>
+    <script type="text/javascript" src="common.js"></script>
+    <script type="text/javascript" src="javascript.js"></script>
     
 </body>
