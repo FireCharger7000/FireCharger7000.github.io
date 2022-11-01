@@ -54,7 +54,7 @@
         <div class="col-1">
             <div class="select-language-popup" id="selectLanguagePopup">
                 <form id="selectLanguageForm">
-                    <label for="language">Select meal size</label>
+                    <label for="language">Select Language</label>
                     <select id="language">
                         <option value="English">English</option>
                         <option value="French">French</option>
@@ -69,18 +69,18 @@
         </div>
 
         <div class="col-1 button">
-            <a id="cancelOrderButton2">Cancel Order</a>
-        </div>
-
-        <div class="col-1">
-
+            <a id="cancelOrderButton">Cancel Order</a>
         </div>
 
         <div class="col-1 button">
-            <a>Click to pay</a>
+            <a>Total = &pound;<span id="totalPrice">0.00</span></a>
+        </div>
+        <div class="col-1 button">
+            <a href="Basket.html">Checkout</a>
         </div>
     </div>
 </footer>
+
 
 <script type="text/javascript">
     // Get the session variable called currentBasket from local storage
