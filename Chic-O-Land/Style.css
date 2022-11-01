@@ -158,15 +158,15 @@ footer {
     display: none;
     position: fixed;
     top: 40%;
-    left: 42%;
+    left: 30%;
     border: 3px solid #f1f1f1;
     z-index: 9;
 }
 
 /* Add styles to the form container */
 .meal-container {
-  max-width: 350px;
-  padding: 10px;
+  max-width: 600px;
+  padding: 15px;
   background-color: white;
 }
 
@@ -192,4 +192,24 @@ footer {
 /* Add some hover effects to buttons */
 .meal-container .btn:hover, .open-button:hover {
   opacity: 1;
+}
+
+label
+{
+  font-size: x-large
+}
+
+option
+{
+  font-size: large;
+}
+
+select
+{
+  font-size: x-large;
+}
+
+button
+{
+  font-size: large;
 }
