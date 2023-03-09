@@ -9,7 +9,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #E5FBF1;
+    background-color: #EDEAE0;
 }
 
 header {
@@ -55,28 +55,6 @@ li a:hover {
 .active {
     background-color: #04AA6D;
     color: white;
-}
-
-
-article {
-    float: left;
-    padding: 20px;
-    width: 70%;
-    background-color: chocolate;
-    height: 300px;
-}
-
-section::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-footer {
-    background-color: darkgoldenrod;
-    padding: 10px;
-    text-align: center;
-    color: aliceblue;
 }
 
 @media (mex-width: 600px) {
