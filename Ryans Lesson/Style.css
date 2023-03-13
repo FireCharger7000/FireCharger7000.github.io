@@ -75,12 +75,14 @@ footer {
     margin-top: 40px;
     padding-top: 20px;
     background-color: #8447ff;
-    height: 150px;
+    height: 125px;
     color: #ffffff;
     text-align: center;  
+    margin: 5px;
+    padding: 1%;
   }
 
-
+/* Rows & Columns of the page */
 
 .row {
     display: flex;    
@@ -94,19 +96,33 @@ footer {
 }
   
 .col-1 {
-    flex-basis: 25%;
+    flex-basis: 24%;
 }
   
 .col-2 {
-    flex-basis: 50%;  
+    flex-basis: 49%;  
 }
   
 .col-4 {
-    flex-basis: 100%;  
+    flex-basis: 99%;  
 }
 
 .col-5 {
-    flex-basis: 75%;
+    flex-basis: 74%;
+}
+
+/* Padding Margin And Border to help arange the page*/
+
+.padding5 {
+  padding: 5px;
+}
+
+.marg5 {
+  margin: 5px;
+}
+
+.add-border {
+  border: 1px solid black;  
 }
 
 /* Screen size*/
