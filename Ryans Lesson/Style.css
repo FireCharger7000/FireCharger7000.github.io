@@ -20,6 +20,7 @@ body {
     overflow: hidden;
     background-color: #8447ff;
     width: 86%;
+    height: 13%;
     text-align: center;
     font-size: 150%;
 }
@@ -45,6 +46,7 @@ body {
   color: #000000;
   display: block;
 }
+
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
