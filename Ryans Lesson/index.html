@@ -6,13 +6,19 @@
     <title>HotBeans | HomePage</title>
     <meta charset="utf-8">
     <meta name="viewpoint" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" media="screen and (min-width: 1280px)" href="Computer Style.css"> <!-- Sets Style For Desktop Screens -->
+    <link rel="stylesheet" media="screen and (min-width: 601px) and (max-width: 1280px) and (max-height: 962px)" href="Tablet Styles.css"> <!-- Sets Style For Tablet Screens -->
+    <link rel="stylesheet" media="screen and (max-width: 600px) and (max-height: 980px)" href="Phone Style.css"> <!-- Sets Style For Phone Screens -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <!-- Sidebar that covers the whole left side of the page -->
     <div class="sidenav" id="sidenav">
+        <div class="hidden">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        </div>
+        
         <a href="#">Home</a>
         <a href="#">Profile</a>
         <a href="#">Careers</a>
@@ -24,15 +30,23 @@
     <!-- All content other than the side bar goes in here -->
     <div class="main">
         <!-- Header for the page -->
-        <div class="header row" id="header">
-            <div style="padding-bottom: 15px;"></div>
-            
-            <h1>HotBeans | Home</h1>
+        <div class="row">
+            <div class="hidden openbutton">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+            </div>
 
-            <div style="padding-bottom: 15px;"></div>
+            <div class="header row" id="header">
+                        <div style="padding-bottom: 15px;"></div>
+
+                        <h1>HotBeans | Home</h1>
+
+                        <div style="padding-bottom: 15px;"></div>
+                    </div>
         </div>
 
-        <div style="padding-top: 130px;"></div>
+        
+
+        <div style="padding-top: 140px;"></div>
 
         <!-- First row of the page -->
         <div class="row">
@@ -104,6 +118,17 @@
                 
         </footer>
     </div>
+
+    <script>
+        function openNav() {
+          document.getElementById("sidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("sidenav").style.width = "0";
+        }
+    </script>
+
 </body>
 
 </html>
