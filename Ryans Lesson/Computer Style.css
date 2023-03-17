@@ -128,16 +128,19 @@ footer {
 
 
 /* Screen size*/
-@media screen and (min-width: 769px) {
-}
+@media screen and (max-width: 1900px) {
+  /* Side Bar */
+  .sidenav {
+    width: 12%; /* Set the width of the sidebar */
+  }
 
-@media screen and (min-width: 992px) {
-}
-  
-  
-@media screen and (min-width: 1200px) {
-}
-  
-  
-@media screen and (min-width: 1400px) {
+  /* Style page content */
+  .main {
+    margin-left: 12%; /* Same as the width of the sidebar */
+  }
+
+  /* Header */
+  .header {
+    width: 87%;
+  }
 }
