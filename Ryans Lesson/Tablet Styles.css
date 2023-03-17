@@ -138,16 +138,32 @@ footer {
 
 
 /* Screen size*/
-@media screen and (min-width: 769px) {
-}
+@media screen and (max-width: 1020px) {
+  /* Col Size */
+  .col-1 {
+      flex-basis: 99%;
+  }
+  
+  .col-2 {
+      flex-basis: 99%;  
+  }
+  
+  .col-4 {
+      flex-basis: 99%;  
+  }
 
-@media screen and (min-width: 992px) {
-}
+  .col-5 {
+      flex-basis: 99%;
+  }
   
-  
-@media screen and (min-width: 1200px) {
-}
-  
-  
-@media screen and (min-width: 1400px) {
+  /* Header */
+  .header {
+    left: 13%;
+    width: 86%;
+  }
+
+  /* Open Button Style */
+  .openbutton {
+    width: 12%;
+  }
 }
