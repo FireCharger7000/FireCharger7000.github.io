@@ -144,3 +144,10 @@ footer {
     width: 87%;
   }
 }
+
+/* Fix for sidebar being wrong size while going from small screen size to large */
+@media screen and (min-width: 1445) {
+  .sidenav{
+    width: 10%;
+  }
+}
