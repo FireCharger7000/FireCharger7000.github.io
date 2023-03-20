@@ -9,7 +9,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #ffffe8;
+    background-color: #EDEAE0;
 }
 
 /* Header */
@@ -19,7 +19,7 @@ body {
     padding: 1%;
     position: fixed;
     overflow: hidden;
-    background-color: #8447ff;
+    background-color: #395e66;
     width: 88%;
     height: 130px;
     text-align: center;
@@ -35,7 +35,7 @@ body {
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #d972ff;
+  background-color: #478593;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
 }
@@ -52,7 +52,7 @@ body {
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: #ff6700;
 }
 
 /* Style page content */
@@ -72,7 +72,7 @@ body {
 footer {
     margin-top: 40px;
     padding-top: 20px;
-    background-color: #8447ff;
+    background-color: #395e66;
     height: 125px;
     color: #ffffff;
     text-align: center;  
@@ -129,7 +129,7 @@ footer {
     padding: 1%;
     position: fixed;
     overflow: hidden;
-    background-color: #8447ff;
+    background-color: #395e66;
     width: 10%;
     height: 130px;
     text-align: center;
