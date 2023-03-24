@@ -124,6 +124,10 @@ footer {
     flex-basis: 74%;
 }
 
+.col-3 {
+  flex-basis: 32%;
+}
+
 /* Padding Margin And Border to help arange the page*/
 
 .padding5 {
