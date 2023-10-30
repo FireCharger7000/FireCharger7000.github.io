@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+    <title>Website | index</title>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" media="screen and (min-width: 1450px)" href="Styles/Computer Style.css"> <!-- Sets Style For Desktop Screens -->
+    <link rel="stylesheet" media="screen and (min-width: 601px) and (max-width: 1450px)" href="Styles/Tablet Styles.css"> <!-- Sets Style For Tablet Screens -->
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="Styles/Phone Style.css"> <!-- Sets Style For Phone Screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<!-- Sidebar that covers the whole left side of the page -->
+<div class="sidenav" id="sidenav">
+    <div class="hidden">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    </div>
+    
+    <a href="index.html">Home</a>
+    <a href="">Shop</a>
+    <a href="">Categories</a>
+    <a href="">Account</a>
+
+</div>
+
+<!-- All content other than the side bar goes in here -->
+<div class="main">
+    <!-- Header for the page -->
+    <div class="row">
+        <div class="hidden openbutton">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+        </div>
+
+        <div class="header row" id="header">
+                    <div style="padding-bottom: 15px;"></div>
+
+                    <h1>Website Header</h1>
+
+                    <div style="padding-bottom: 15px;"></div>
+                </div>
+    </div>
+
+    
+
+    <div style="padding-top: 140px;"></div>
+
+    <!-- First row of the page -->
+    <div class="row">
+        <!-- Main Column -->
+        <div style="text-align: center;" class="marg5 padding5 col col-4">
+            <br>
+            <br>
+            <p style="text-align: center; font-size: 150%;">This is a paragraph <br> this is more of a paragraph <br> and ever more paragraph</p>
+        </div>
+    </div>
+
+    <!-- First row of the page -->
+    <div class="row">
+        <!-- Main Column -->
+        <div class=" marg5 padding5 col col-4">
+            <li>
+                 Red
+            </li>
+            <li>
+                Blue
+            </li>
+            <li>
+                Black
+            </li>
+        </div>
+    </div>
+
+    <!-- Second row of the page -->
+    <div class="row">
+        <!-- Right Column -->
+        <div class=" marg5 padding5 col col-2">
+            <img src="Unknown.jpeg">
+        </div>
+
+        <!-- Left Column -->
+        <div class=" marg5 padding5 col col-2">
+            <table>
+                <th></th>
+            <tr>
+                <td>Programming</td>
+                <td>0</td>
+                <td>0</td> 
+            </tr>
+            </table>
+            
+        </div>
+    </div>
+
+<!-- Footer for the page -->
+    <footer>
+        
+    </footer>
+</div>
+
+<script>
+    function openNav() {
+      document.getElementById("sidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("sidenav").style.width = "0";
+    }
+</script>
+</body>
+
